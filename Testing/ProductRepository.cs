@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 using System.Data;
 using Dapper;
 using System.ComponentModel.Design;
+using Testing.Models;
 
-namespace Testing.Models
+namespace Testing
 {
     public class ProductRepository : IProductRepository
     {

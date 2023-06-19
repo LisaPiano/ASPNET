@@ -2,8 +2,9 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Testing.Models;
 
-namespace Testing.Models
+namespace Testing
 {
     public interface IProductRepository
     {

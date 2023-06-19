@@ -3,11 +3,10 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-
-namespace Testing
+namespace Testing.Models
 {
     public interface IProductRepository
     {
-        public IEnumerable<Products>GetAllProducts();
+        public IEnumerable<Product> GetAllProducts();
     }
 }
